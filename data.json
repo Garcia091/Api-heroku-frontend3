@@ -1,79 +1,171 @@
 {
-    "album": [
+  "categories" : [
       {
-        "id": 1,
-        "agrupacion": "solista",
-        "genero": "soul",
-        "artista": "The Weeknd",
-        "titulo": "Starboy",
-        "lanzamiento": "2018",
-        "portada":
-          "https://i.pinimg.com/originals/48/24/93/48249335e8c3852d59a5a27e054bb8d2.jpg"
+        "name": "dogs",
+        "section": "Perros",
+        "image": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625536708/perros_e1bfpk.png"
       },
       {
-        "id": 2,
-        "agrupacion": "solista",
-        "genero": "pop",
-        "artista": "Sia",
-        "titulo": "Cheap Thrills",
-        "lanzamiento": "2017",
-        "portada": "https://i1.sndcdn.com/artworks-000174898618-vsdrz9-t500x500.jpg"
-      },
-      {
-        "id": 3,
-        "agrupacion": "banda",
-        "genero": "rock",
-        "artista": "Queen",
-        "titulo": "The Miracle",
-        "lanzamiento": "1989",
-        "portada":
-          "https://images-na.ssl-images-amazon.com/images/I/71X9RN0Y47L._SX425_.jpg"
-      },
-      {
-        "id": 4,
-        "agrupacion": "solista",
-        "genero": "pop",
-        "artista": "Ariana Grande",
-        "titulo": "Sweetener",
-        "lanzamiento": "2017",
-        "portada":
-          "https://images-na.ssl-images-amazon.com/images/I/61zN9VJGynL._SL1200_.jpg"
-      },
-      {
-        "id": 5,
-        "agrupacion": "banda",
-        "genero": "pop",
-        "artista": "NSYNC",
-        "titulo": "No strings attached",
-        "lanzamiento": "2000",
-        "portada":
-          "https://images-na.ssl-images-amazon.com/images/I/71s1PeC%2BuFL._SX425_.jpg"
-      },
-      { "id": 6,
-        "agrupacion": "banda",
-        "genero": "pop",
-        "artista": "Little Mix",
-        "titulo": "Confetti",
-        "lanzamiento": "2020",
-        "portada": "https://m.media-amazon.com/images/I/81EIn0QBInL._SS500_.jpg"
+        "name": "cats",
+       "section": "Gatos",
+        "image": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625536707/gatos_nm2u3g.png"
       }
     ],
-    "usuario": [
-      {
-        "id": 1,
-        "apellido_paterno": "Garcia",
-        "apellido_materno": "Sanchez",
-        "nombre": "Silvia",
-        "username": "garcia.s091@gmail.com",
-        "password": "827ccb0eea8a706c4c34a16891f84e7b"
-      },
-      {
-        "id": 2,
-        "apellido_paterno": "Cano",
-        "apellido_materno": "Garcia",
-        "nombre": "Daniel",
-        "username": "dcano@gmail.com",
-        "password": "827ccb0eea8a706c4c34a16891f84e7b"
+
+  "dogs": [
+    {
+      "id": "dog-1",
+      "imageUrl": "https://storage.googleapis.com/adoptio-app-ag-2021/dog.png",
+      "imageAlt": "Dog Image",
+      "name": "Rocky",
+      "breed": "Rootweiler",
+      "details": {
+        "age": "3",
+        "gender": "male",
+        "location": "4250 Colina del Valle, Ciudad de México 235312",
+        "personality": [
+          {
+            "skill": "Amoroso",
+            "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625540923/amoroso_lumiae.png"
+          },
+          {
+            "skill": "Inquieto",
+            "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625540992/inquieto_luqnzh.png"
+          },
+          {
+            "skill": "Juguetón",
+            "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625540993/jugueton_vvlwdz.png"
+          }
+        ],
+        "history": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada."
       }
-    ]
+    },
+    {
+      "id": "dog-2",
+      "imageUrl": "https://storage.googleapis.com/adoptio-app-ag-2021/dog1.png",
+      "imageAlt": "Dog Image",
+      "name": "Papi",
+      "breed": "Chihuahua"
+    },
+    {
+      "id": "dog-3",
+      "imageUrl": "https://storage.googleapis.com/adoptio-app-ag-2021/dog2.png",
+      "imageAlt": "Dog Image",
+      "name": "Chester",
+      "breed": "Golden retriever"
+    },
+    {
+      "id": "dog-4",
+      "imageUrl": "https://storage.googleapis.com/adoptio-app-ag-2021/dog3.png",
+      "imageAlt": "Dog Image",
+      "name": "Pelusa",
+      "breed": "Bichón frisé"
     }
+  ],
+  "cats": [
+    {
+      "id": "cat-1",
+      "imageUrl": "https://storage.googleapis.com/adoptio-app-ag-2021/cat.png",
+      "imageAlt": "Cat Image",
+      "name": "Matilde",
+      "breed": "British Shorthair",
+      "details": {
+        "age": "5",
+        "gender": "female",
+        "location": "4140 Parker Rd. Allentown, New Mexico 31134",
+        "personality": [
+          {
+            "skill": "Inquieto",
+            "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625540992/inquieto_luqnzh.png"
+          },
+          {
+            "skill": "Juguetón",
+            "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625540993/jugueton_vvlwdz.png"
+          },
+          {
+            "skill": "Tierno",
+            "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625541093/tierno_guz2cc.png"
+          }
+        ],
+        "history": "Matilde es la mejor guarda espaldas, siempre esta ahí para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita."
+      }
+    },
+    {
+      "id": "cat-2",
+      "imageUrl": "https://storage.googleapis.com/adoptio-app-ag-2021/cat1.png",
+      "imageAlt": "Cat Image",
+      "name": "Pelusa",
+      "breed": "Birmano"
+    },
+    {
+      "id": "cat-3",
+      "imageUrl": "https://storage.googleapis.com/adoptio-app-ag-2021/cat2.png",
+      "imageAlt": "Cat Image",
+      "name": "Kity",
+      "breed": "Bombay"
+    },
+    {
+      "id": "cat-4",
+      "imageUrl": "https://storage.googleapis.com/adoptio-app-ag-2021/cat3.png",
+      "imageAlt": "Cat Image",
+      "name": "Lollipop",
+      "breed": "American Cat"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "dog-1",
+      "imageUrl": "https://storage.googleapis.com/adoptio-app-ag-2021/dog.png",
+      "imageAlt": "Dog Image",
+      "name": "Rocky",
+      "breed": "Rootweiler",
+      "details": {
+        "age": "3",
+        "gender": "male",
+        "location": "4250 Colina del Valle, Ciudad de México 235312",
+        "personality": [
+          {
+            "skill": "Amoroso",
+            "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625540923/amoroso_lumiae.png"
+          },
+          {
+            "skill": "Inquieto",
+            "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625540992/inquieto_luqnzh.png"
+          },
+          {
+            "skill": "Juguetón",
+            "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625540993/jugueton_vvlwdz.png"
+          }
+        ],
+        "history": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada."
+      }
+    },
+    {
+      "id": "cat-1",
+      "imageUrl": "https://storage.googleapis.com/adoptio-app-ag-2021/cat.png",
+      "imageAlt": "Cat Image",
+      "name": "Matilde",
+      "breed": "British Shorthair",
+      "details": {
+        "age": "5",
+        "gender": "female",
+        "location": "4140 Parker Rd. Allentown, New Mexico 31134",
+        "personality": [
+          {
+              "skill": "Inquieto",
+              "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625540992/inquieto_luqnzh.png"
+            },
+            {
+              "skill": "Juguetón",
+              "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625540993/jugueton_vvlwdz.png"
+            },
+            {
+              "skill": "Tierno",
+              "imageSkill": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625541093/tierno_guz2cc.png"
+            }
+        ],
+        "history": "Matilde es la mejor guarda espaldas, siempre esta ahí para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita."
+      }
+    }
+  ]
+}
