@@ -167,5 +167,41 @@
         "history": "Matilde es la mejor guarda espaldas, siempre esta ahí para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita."
       }
     }
-  ]
+  ],
+  
+  "Burger":[
+    { 
+        "id": 1, 
+        "image": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625108847/Saltenia_l7vwko.png", 
+        "nombre": "SALTEÑA", 
+        "precio": 13500 
+    
+    },
+    { 
+        "id": 2, 
+        "image": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625108848/Portenia_atwepp.png", 
+        "nombre": "PORTEÑA", 
+        "precio": 12000 
+    },
+    { 
+        "id": 3, 
+        "image": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625108847/Chicken_xgqujo.png", 
+        "nombre": "CHICKEN", 
+        "precio": 15000 
+    },
+    { 
+        "id": 4, 
+        "image": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625108849/Criolla_ahdrpy.png", 
+        "nombre": "CRIOLLA", 
+        "precio": 14000 
+    },
+    { 
+        "id": 5, 
+        "image": "https://res.cloudinary.com/db9wh5uvt/image/upload/v1625108845/patagonia_novm28.png", 
+        "nombre": "PATAGONIA", 
+        "precio": 18000 
+    }
+]
+
+
 }
